@@ -1,0 +1,52 @@
+project:
+  type: website
+  preview:
+    port: 6017
+    browser: false
+    watch-inputs: true
+  post-render:
+    - "cp -rv static/. _site/"
+
+website:
+  title: "{{< var ej.short >}} Data Editor"
+  favicon: img/favicon.png
+  page-footer: 
+    left: | 
+     ![](img/logo-v2-4.png)
+    center: "{{< var ej.short >}} Data Editor: [{{< var de.mail >}}]({{< var de.mail >}}) <br> {{< var ej.short >}} Editorial Office: [{{< var ej.mail >}}]({{< var ej.mail >}})"
+    right:
+      - icon: github
+        href: https://github.com/RES-reproducibility
+      - icon: twitter 
+        href: https://twitter.com/RESDataEditor 
+
+  navbar:
+    logo: img/Logo-colour-screen-white2.png
+    background: '#fcc305'
+    left:
+      - href: before.qmd
+        text: Before You Submit
+      - href: best.qmd
+        text: Best Practices
+      - href: package.qmd
+        text: Prepare the Package
+      - href: faqs.qmd
+        text: FAQs
+      #- href: posts.qmd
+      - href: de.qmd
+        text: Data Editor
+  google-analytics:
+    tracking-id: "G-48S9X9V28L"
+    anonymize-ip: true
+  cookie-consent: true
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - mytheme.scss
+    toc: true
+    linkcolor: black
+
+
+
