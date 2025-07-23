@@ -90,14 +90,19 @@ More specific guidance, and examples, on data citations is available [here](http
 We do not require you to adhere to a particular structure within your folders `3-replication-package.zip` and `4-confidential-data-not-for-publication.zip`, as long as the content is clearly structured. We recommend at a minimum to keep `code`, `data` and `output` separated. This and other tips for best practice on how to structure your package can be found [here](best.qmd).
 
 ## Submitting Your Package
-
+<!--
 You will be *invited* to submit your package via an upload link by the Data Editor. This invitation will be generated *after* you have submitted the following items via [The {{< var ej.short >}} Editorial Express](https://editorialexpress.com/ej) as a resubmission of your paper:
+-->
+You will be *invited* to submit your package via an by the Editorial Office after acceptance. This invitation will request that you submit the following items via [The {{< var ej.short >}} Editorial Express](https://editorialexpress.com/ej):
 
 1. `1-paper` (see @sec-prelims)
 2. `2-appendix` (see @sec-prelims)
+3. `3-replication-package.zip` (see @sec-prelims)
 3. Signed and dated [checklist.pdf](checklist.pdf)
 
+<!--
 Notice that you will submit `1-paper` and `2-appendix` twice, once on Editorial Express to trigger the invitation link, and once as part of your replication package (see @sec-prelims).
+-->
 
 A few days after you submitted the package (in most cases, within two weeks) you will be contacted by the Data Editor with the outcome of the reproducibility checks, regardless of whether the checks were successful or there are modifications to be made. **Please add {{< var de.mail >}} to your safe contacts to avoid that the Data Editor's messages go to spam!**
 
