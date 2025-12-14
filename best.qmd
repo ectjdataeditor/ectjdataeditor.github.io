@@ -114,7 +114,7 @@ Notice how this example includes `tex/main.tex` which will produce the final pro
 
 * Generate your analysis data using programs, many journals require you to submit them.
 * Separate `code`, `data` and `outputs` in your directory structure. This will facilitate (i) keeping versions of your code, and (ii) producing a replication package.
-* Stronlgy consider the benefits of **version control** for the reproducibility of your research. Click [here](https://datacarpentry.org/rr-version-control/) for a tutorial.
+* Strongly consider the benefits of **version control** for the reproducibility of your research. Click [here](https://datacarpentry.org/rr-version-control/) for a tutorial.
 * Use programs/scripts as opposed to command-line instructions!
 * Design your code to be run all at once, and not section by section. Create a master file that calls all other subsidiary files.
 * Set the paths only once and at the top of the master-file, and then use either relative paths or global variables, so that users don't have to change the paths in multiple parts of your code. 

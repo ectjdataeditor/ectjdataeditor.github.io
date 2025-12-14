@@ -2,7 +2,7 @@
 title: "Before you submit your paper for the first time"
 ---
 
-Read here about our Data and Code Availability Policy (DCAP) and make sure you comply with all requirements before you submit the paper for the first time. Check the cases in which exemptions to the policy can be granted and the procedures to obtain them. If you don't request the exemption at the time of first submission, you will not be able to do it later! Also, there may still be time to gain some insights from our [best practice for reproducibility recommendations](best.qmd) before you submit.
+Read here about our replication policy and make sure you comply with all requirements before you submit the paper for the first time. Check the cases in which exemptions to the policy can be granted and the procedures to obtain them. If you don't request the exemption at the time of first submission, you will not be able to do it later! Also, there may still be time to gain some insights from our [best practice for reproducibility recommendations](best.qmd) before you submit.
 
 
 ## Data and Code Availability Policy
@@ -11,24 +11,24 @@ Read here about our Data and Code Availability Policy (DCAP) and make sure you c
 
 # Official Policy at {{< var ej.short >}}
 
-This is a reproduction of the official Data and Code Availability Policy of the {{< var ej.long >}}, which can be found [here](https://academic.oup.com/ej/pages/General_Instructions#data). In case of discrepancy, the official policy always prevails to the reproduction presented here.
+This is a reproduction of the official Replication Policy of the {{< var ej.long >}}, which can be found [here](https://res.org.uk/replication-policy/). In case of discrepancy, the official policy always prevails to the reproduction presented here.
 :::
 
 It is an integral and essential part of scientific investigation that results are easily replicated. We will only publish papers if they are accompanied by a complete replication package.
 
 Such a package consists of:
 
-- a readme file describing the contents of the package and the version of the software it was written for and the respective versions of extra packages
-- the data used in the analysis, including a complete, transparent and precise documentation describing all variables. If the data is provided in a proprietary format, such as in STATA format, then an ASCII file should also be provided
+- a README file describing the contents of the package and the version of the software it was written for and the respective versions of extra packages
+- the data used in the analysis, including a complete, transparent and precise documentation describing all variables. If the data is provided in a proprietary format, such as in Stata format, then an ASCII file should also be provided
 - all code necessary to re-produce the tables and figures in the paper as well as supplements and appendices, including the code used to run simulation/Monte Carlo studies (the authors are requested to set a seed so that the exact numbers that are reported can be obtained); if the code uses additional packages that are not part of the standard distribution, then these packages should be included so that the code still runs after many years.
 
-Ideally, but not necessarily, it should include a makefile, so that all results can be replicated from the provided data and code using the make utility. This package will be posted alongside the article as [Supporting Information](https://res.org.uk/supporting/).
+Ideally, but not necessarily, it should include a makefile, so that all results can be replicated from the provided data and code using the make utility. This package will be posted alongside the article as Supporting Information.
 
-Submission indicates that you license users to download, copy, and modify this material. Users of the material must acknowledge all authors as the original creators and The Econometrics Journal as the original publishers. The editorial board of The Econometrics Journal reserves the right to refuse publication of those papers whose authors do not comply with these requirements.
+Submission indicates that you license users to download, copy, and modify this material. Users of the material must acknowledge all authors as the original creators and *The Econometrics Journal* as the original publishers. The editorial board of *The Econometrics Journal* reserves the right to refuse publication of those papers whose authors do not comply with these requirements.
 
-The editorial board of The Econometrics Journal recognises that some issues relating to data and programs may arise. Requests for exemptions from providing materials or restricting their usage must be stated clearly at first submission. The editorial board will then decide whether the submission can be considered.
+The editorial board of *The Econometrics Journal* recognises that some issues relating to data and programs may arise. Requests for exemptions from providing materials or restricting their usage must be stated clearly at first submission. The editorial board will then decide whether the submission can be considered.
 
-The Econometrics Journal discourages papers that rely on completely proprietary data. As with other practical difficulties, authors who feel that their paper might constitute an exception should forward the case to the editorial office. Papers that are based on data that are only available at some cost (either monetary or because access to the data is limited, e.g., at a National Statistics office) and can therefore not be included in the package may in exceptional cases be considered. However, the authors will then still be required to provide all programs and instructions a researcher would require to replicate their results once the researcher has access to the data. The source of the data must be described in enough detail so that researchers can apply to obtain access to them. The authors will also be required to supply code that simulates data, as much as possible mimicking the actual data that were used in the application, as well as a file running the analysis on the simulated data. Alternatively, synthetic data can be provided.
+*The Econometrics Journal* discourages papers that rely on completely proprietary data. As with other practical difficulties, authors who feel that their paper might constitute an exception should forward the case to the editorial office. Papers that are based on data that are only available at some cost (either monetary or because access to the data is limited, e.g., at a National Statistics office) and can therefore not be included in the package may in exceptional cases be considered. However, the authors will then still be required to provide all programs and instructions a researcher would require to replicate their results once the researcher has access to the data. The source of the data must be described in enough detail so that researchers can apply to obtain access to them. The authors will also be required to supply code that simulates data, as much as possible mimicking the actual data that were used in the application, as well as a file running the analysis on the simulated data. Alternatively, synthetic data can be provided.
 
 ::: {.callout-important}
 # When Will my Paper be Accepted for Publication?
@@ -61,12 +61,8 @@ Please follow precise instructions on how to structure your replication package 
 
 If you are not able to comply with some of the aspects of the Data and Code Availability Policy (e.g. because you are using restricted-access data or you cannot obtain permission to re-publish the data), you should request an exemption **at the time of first submission of your paper**. You can find a set of Frequently Asked Questions about the situations under which you can or cannot apply to an exemption to the data and code availability policy [here](faqs.qmd). 
 
-If you want to request a Data Exemption, you need to select the second option for the Data Policy box during your submission process at the Editorial Express platform, as illustrated in figure @fig-exemption:
+**If you wish to request a Data Exemption, this must be indicated in your cover letter to the editor upon first submission.**  In this cover letter please indicate the reasons why you believe you are entitled to an exemption to our data and code availability policy. 
 
-![Data Policy Exemption](/img/Data_policy.png){#fig-exemption}
-
-Additionally, attach a Cover Letter along with your paper in which you indicate the reasons why you believe you are entitled to an exemption to our data and code availability policy. 
-
-Once the paper is submitted, the Managing Editor will analyze whether (i) there are enough grounds to grant the exemption and (ii) the exemption or the nature of the data limits the interest of the paper. Based on her assessment of these two points, she will make one of the following decisions: (a) move forward with the process, sending your paper to referees, (b) summarily reject your paper, or (c) contact you asking to provide additional information, documentation, or any other requirement that she needs to assess the suitability of the requested exemption. The exemptions are tacitly granted by choosing option (a). 
-
+Once the paper is submitted, the Managing Editor will analyze whether (i) there are enough grounds to grant the exemption and (ii) the exemption or the nature of the data limits the interest of the paper. Based on his/her assessment of these two points, s/he will make one of the following decisions: (a) move forward with the process, sending your paper to referees, (b) summarily reject your paper, or (c) contact you asking to provide additional information, documentation, or any other requirement that she needs to assess the suitability of the requested exemption. The exemptions are tacitly granted by choosing option (a). 
+<
 Once your paper is conditionally accepted, you will be requested to supply your replication package according to the guidelines specified [here on this website](package.qmd). If an exemption to the Data and Code Availability Policy was granted, you will be requested to either provide the Data Editor (and, by extension, to the team of replicators) with temporary access to the data affected by the exemption for the sole purpose of implementing the reproducibility checks. Alternatively, when granting temporary access to the restricted data is not possible, you will be required to include in your package a synthetic or simulated dataset that allows users to run the code and check that it produces all outputs from the paper (and appendices), even if the results do not match those in the paper. You can find a set of FAQs questions about how to proceed with the replication package when an exemption to the Data and Code Availability Policy has been granted [here](faqs#procedures-when-exemptions-are-granted). 
