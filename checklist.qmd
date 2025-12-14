@@ -30,11 +30,11 @@ Thank you!
 
 - [ ] Any .bib, .bbl or .bst files required. 
 
-## Subfolder "2-onlineappendices"
+## Subfolder "2-onlineappendix"
 
 - [ ] All online appendices combined into a single file (.pdf or .zip), provided in a format ready for online publication, labelled: [manuscriptID]_online_appendix.
 
-- [ ] An editable version of the paper in LaTeX following the journal style, labelled: [manuscript ID]_main. 
+- [ ] An editable version of the online appendix in LaTeX following the journal style, labelled: [manuscript ID]_online_appendix. 
 
 ## Subfolder "3-replication-package"
 
