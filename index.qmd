@@ -2,12 +2,12 @@
 title: "{{< var ej.full >}}'s Data Editor Website"
 ---
 
-This website provides all the relevant information regarding the Data and Code Availability Policy and pre-acceptance reproducibility checks implemented at [{{< var ej.full >}}]({{< var ej.url >}}). On the  pages of this website you will find the following information: 
+This website provides all the relevant information regarding the {{< var ej.Policy >}} and pre-acceptance reproducibility checks implemented at [{{< var ej.full >}}]({{< var ej.url >}}). On the  pages of this website you will find the following information: 
 
 <br>
 [**Before Submitting Your Package**](before.qmd){.btn .btn-secondary .btn role="button"}
 
-Learn about our Data and Code Availability Policy, possible exemptions to it, and make sure you comply with all requirements before you submit the paper for the first time. Exemptions can only be granted if you apply _when you first submit your paper_.
+Learn about our {{< var ej.Policy >}}, possible exemptions to it, and make sure you comply with all requirements before you submit the paper for the first time. Exemptions can only be granted if you apply _when you first submit your paper_.
 
 <br>
 [**Best Practices**](best.qmd){.btn .btn-secondary .btn role="button"}
