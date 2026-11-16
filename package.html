@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-07cf670fd5c4462c27c9e8a6464df88c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6c380705f4fec78795cc843031380f25.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -195,6 +195,7 @@ cookieconsent.run({
 <p>You are <strong>requested</strong> to submit a single <code>zip</code> file with the following <strong>folder structure</strong> (please name your folders in this <em>exact</em> way! Notice there should be <em>no spaces</em> in folder names, and <em>no capital letters</em>). In short, the content of your <code>zip</code> file looks as follows:</p>
 <pre><code>├── 1-paper
 ├── 2-onlineappendix
+├── README.pdf
 ├── 3-replication-package.zip
 └── 4-confidential-data-not-for-publication.zip  (Optional)</code></pre>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -232,7 +233,7 @@ Sign and Submit Checklist ☑
 <h2 data-number="2" class="anchored" data-anchor-id="contents-of-replication-package"><span class="header-section-number">2</span> Contents of Replication Package</h2>
 <p>As indicated in the journal’s <a href="https://res.org.uk/replication-policy/">Replication Policy</a> all packages should include the following information:</p>
 <ul>
-<li>A <code>README</code> file in PDF format (<code>README.pdf</code>). We strongly recommend using <a href="https://social-science-data-editors.github.io/template_README/">this template</a>. You may find in <a href="https://www.templatereadme.org/">this web app</a> a convenient tool to create your <code>README</code> file.</li>
+<li>A <code>README</code> file in PDF format (<code>README.pdf</code>). We strongly recommend using <a href="https://social-science-data-editors.github.io/template_README/">this template</a>. You may find in <a href="https://www.templatereadme.org/">this web app</a> a convenient tool to create your <code>README</code> file. This <code>README</code> should be provided outside of the file <code>3-replication-package.zip</code> in the interests of ease of access when loaded to Zenodo upon final approval.</li>
 <li>The <strong>raw datasets</strong> used in the paper and online appendices, including a complete, transparent and precise documentation describing all variables. You can additionally provide the analysis data if this is helpful, but they are not required if the raw data are provided.</li>
 <li>If you were granted a data exemption at the time of first submission (see <a href="./before.html#apply-to-exemptions-to-the-replication-policy">here</a>, <a href="./faqs.html#and-exemptions">here</a>, and <a href="./faqs.html#procedures-when-exemptions-are-granted">here</a> for details), you should either provide the replication team with <strong>temporary access</strong> to the data for the sole purpose of performing the reproducibility checks, or you should submit a <strong>synthetic/simulated</strong> dataset that allows running the code and produce all outputs in the paper and appendices, even if the results do not match those in the paper. If you can provide temporary access but you cannot share the data in the <code>4-confidential-data-not-for-publication.zip</code> folder, please contact the Data Editor at ectjdataeditor@gmail.com to arrange an alternative access method. The content of this folder will be destroyed after the reproducibility checks are completed. All replicators and the Data Editor have signed confidentiality agreements that protect your submission.</li>
 <li>Both the data cleaning codes and the analysis codes that produce all reproducible outputs reported in the article, appendix, and online appendices (including figures, tables, and numbers reported in the text). If some results are produced without scripts (e.g.&nbsp;ArcGIS maps), the <code>README</code> file should include step-by-step <em>very detailed instructions</em> on how to produce that output. In case of simulation/Monte Carlo studies, the authors are requested to set a seed so that the exact numbers that are reported can be obtained.</li>
@@ -307,8 +308,8 @@ Data Citations Are Important!
 <li>Sign up <a href="https://zenodo.org/signup/">here</a> for a free zenodo account, if you don’t have one already.</li>
 <li>Go to the Econometrics Journal’s community of Zenodo at <a href="https://zenodo.org/communities/ectj-replication-repository">https://zenodo.org/communities/ectj-replication-repository</a>.</li>
 <li>Start a new upload within the community using the top-right green button in the below figure. <img src="img/zenodo-1.png" class="img-fluid"></li>
-<li>Upload the <code>zip</code> compressed version of your replication package (i.e.&nbsp;the <strong>exact same</strong> archive <code>3-replication-package.zip</code> you sent us in your final iteration of the replication package). Drag-and-drop the zip file to upload it, as shown below. Make sure you only publish the replication package and <em>not</em> the paper or online appendices. Especially, <strong>do not publish the content of the <code>4-confidential-data-not-for-publication.zip</code> folder</strong>!</li>
-<li>After your upload completes, indicate that you do <strong>not</strong> have a DOI for this package already, but that you want to <strong>Get a DOI now!</strong> <img src="img/zenodo-2.png" class="img-fluid"></li>
+<li>Upload the <code>zip</code> compressed version of your replication package along with your <code>README.pdf</code> file (i.e.&nbsp;the <strong>exact same</strong> versions of <code>3-replication-package.zip</code> and <code>README.pdf</code> which you sent us in your final iteration of the replication package). Drag-and-drop the zip file and pdf to upload them, as shown below. Make sure you only publish the replication package and <em>not</em> the paper or online appendices. Especially, <strong>do not publish the content of the <code>4-confidential-data-not-for-publication.zip</code> folder</strong>!</li>
+<li>After your upload completes, indicate that you do <strong>not</strong> have a DOI for this package already, but that you want to <strong>Get a DOI now!</strong> <img src="img/zenodo-2new.png" class="img-fluid"></li>
 <li>Fill in the required metadata:
 <ol type="1">
 <li>Resource type: Software or Dataset (what you find more applicable).</li>
@@ -319,7 +320,7 @@ Data Citations Are Important!
 </ol></li>
 <li>Use the default license <em>Creative Commons Attribution 4.0 International</em></li>
 <li>Feel free to fill in any additional meta data, but nothing more is required from our side.</li>
-<li>Finally, click <em>submit for review</em> top right of the page, as illustrated in the figure below. This action will notify the Data Editor of your new upload. We will then check the digital fingerprint of your package against what we have on file, and accept your package into our community. <img src="img/zenodo-3.png" class="img-fluid"></li>
+<li>Finally, click <em>submit for review</em> top right of the page, as illustrated in the figure below. This action will notify the Data Editor of your new upload. We will then check the digital fingerprint of your package against what we have on file, and accept your package into our community. <img src="img/zenodo-3new.png" class="img-fluid"></li>
 </ol>
 
 
