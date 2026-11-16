@@ -111,7 +111,7 @@ Once the reproducibility checks are concluded, and upon invitation of the Data E
 2. Go to the {{< var ej.long >}}'s community of Zenodo at [{{< var ej.zenodo >}}]({{< var ej.zenodo >}}).
 3. Start a new upload within the community using the top-right green button in the below figure. ![](img/zenodo-1.png)
 1. Upload the `zip` compressed version of your replication package along with your `README.pdf` file (i.e. the **exact same** versions of `3-replication-package.zip` and `README.pdf` which you sent us in your final iteration of the replication package). Drag-and-drop the zip file and pdf to upload them, as shown below. Make sure you only publish the replication package and _not_ the paper or online appendices. Especially, **do not publish the content of the `4-confidential-data-not-for-publication.zip` folder**! 
-3. After your upload completes, indicate that you do **not** have a DOI for this package already, but that you want to **Get a DOI now!** ![](img/zenodo-2new.png)
+3. After your upload completes, indicate that you do **not** have a DOI for this package already, but that you want to **Get a DOI now!** ![](img/zenodo-2.png)
 4. Fill in the required metadata: 
    1. Resource type: Software or Dataset (what you find more applicable).
    2. Publication date: leave the default today's date.
@@ -120,5 +120,5 @@ Once the reproducibility checks are concluded, and upon invitation of the Data E
    5. Description: write a full citation to your manuscript as a description of what the replication package contains.
 5. Use the default license _Creative Commons Attribution 4.0 International_
 6. Feel free to fill in any additional meta data, but nothing more is required from our side.
-7. Finally, click _submit for review_ top right of the page, as illustrated in the figure below. This action will notify the Data Editor of your new upload. We will then check the digital fingerprint of your package against what we have on file, and accept your package into our community. ![](img/zenodo-3new.png)
+7. Finally, click _submit for review_ top right of the page, as illustrated in the figure below. This action will notify the Data Editor of your new upload. We will then check the digital fingerprint of your package against what we have on file, and accept your package into our community. ![](img/zenodo-3.png)
 
