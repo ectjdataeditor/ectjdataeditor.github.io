@@ -20,6 +20,8 @@ jobs:
           version: 1.7.32
 
       - name: Install TinyTeX
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
                 quarto install tinytex
                 sudo apt-get install -y ghostscript
