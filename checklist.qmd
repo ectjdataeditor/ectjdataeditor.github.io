@@ -36,11 +36,11 @@ Thank you!
 - [ ] An editable version of the online appendix in LaTeX following the journal style, labelled: [manuscript ID]_online_appendix. 
 
 
-**Additionally, in due course when requested I will provide the Data Editor with all replication materials in a zipped folder as laid out below:**
+**Additionally, in due course when requested I will provide the Data Editor with all replication materials, consisting of a README file in PDF format and a zipped folder, as laid out below:**
 
-## File "3-replication-package.zip"
+## File "README.pdf"
 
-- [ ] A file called README.pdf. We strongly recommend using the following template: [https://social-science-data-editors.github.io/template_README/](https://social-science-data-editors.github.io/template_README/). This template can be downloaded in Markdown/txt, doc, LaTeX, and pdf in order to be edited (though we request it be included in the replication package as a pdf). The README file should include the following information (check each item):
+- [ ] A file called README.pdf, provided outside of the file 3-replication-package.zip. We strongly recommend using the following template: [https://social-science-data-editors.github.io/template_README/](https://social-science-data-editors.github.io/template_README/). This template can be downloaded in Markdown/txt, doc, LaTeX, and pdf in order to be edited (though we request it be provided as a pdf). The README file should include the following information (check each item):
   - [ ] Description of the content of the replication package.
   - [ ] A Data Availability Statement that indicates how the data were obtained, including required registrations, application procedures, monetary cost if applicable, etc. and, if applicable, URL to download them.
   - [ ] Precise instructions on how to run the code.
@@ -49,6 +49,8 @@ Thank you!
   - [ ] All packages and libraries that need to be installed to run the code and either provide them or indicate how to obtain them.
   - [ ] Expected running time (even if it is a few seconds). When relevant, include the setup that the estimated time refers to.
   - [ ] A references section with data citations (data should additionally also be cited in the manuscript). More specific guidance on data citations is available at [https://social-science-data-editors.github.io/guidance/addtl-data-citation-guidance.html](https://social-science-data-editors.github.io/guidance/addtl-data-citation-guidance.html).
+
+## File "3-replication-package.zip"
 
 - [ ] All raw datasets that are necessary to generate all tables and figures from the main text and appendices (including online appendix) as well as all figures quoted in the text. This applies also to simulated/synthetic datasets generated as a result of a data exemption.
 
