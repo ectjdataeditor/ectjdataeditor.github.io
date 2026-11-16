@@ -8,12 +8,12 @@ project:
     - "cp -rv static/. _site/"
 
 website:
-  title: "{{< var ej.short >}} Data Editor"
+  title: "EctJ Data Editor"
   favicon: img/favicon.png
   page-footer: 
     left: | 
-     ![](img/logo-v2-4.png)
-    center: "{{< var ej.short >}} Data Editor: [{{< var de.mail >}}]({{< var de.mail >}}) <br> {{< var ej.short >}} Editorial Office: [{{< var ej.mail >}}]({{< var ej.mail >}})"
+     ![](/img/logo-v2-4.png)
+    center: "{{< var ej.short >}} Data Editor: [{{< var de.mail >}}](mailto:{{< var de.mail >}}) <br> {{< var ej.short >}} Editorial Office: [{{< var ej.mail >}}](mailto:{{< var ej.mail >}})"
     right:
       - icon: github
         href: https://github.com/RES-reproducibility
