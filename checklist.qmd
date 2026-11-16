@@ -6,7 +6,6 @@ editor: source
 
 
 ![](img/bannerEctJ.png){fig-align="top"}
-\vspace{0.5cm}
 
 # Checklist for Final Files
 
@@ -16,7 +15,7 @@ Before submitting your final version, please check that you have complied with t
 
 Thank you!
 
-**I confirm that I have included the following files in one zip file, ready for production, respecting the folder structure and names indicated in this checklist:**
+**I confirm that I have prepared the following files to be included with this checklist in one zip file, ready for production, respecting the folder structure and names indicated below:**
 
 ## Subfolder "1-paper"
 
@@ -36,31 +35,34 @@ Thank you!
 
 - [ ] An editable version of the online appendix in LaTeX following the journal style, labelled: [manuscript ID]_online_appendix. 
 
-## Subfolder "3-replication-package"
 
-- [ ] A file called ReadMe.pdf in PDF format. We strongly recommend using the following template: [https://social-science-data-editors.github.io/template_README/](https://social-science-data-editors.github.io/template_README/). This template can be downloaded in Markdown/txt, doc, LaTeX, and PDF in order to be edited. The ReadMe file should include the following information (check each item):
+**Additionally, in due course when requested I will provide the Data Editor with all replication materials in a zipped folder as laid out below:**
+
+## File "3-replication-package.zip"
+
+- [ ] A file called README.pdf. We strongly recommend using the following template: [https://social-science-data-editors.github.io/template_README/](https://social-science-data-editors.github.io/template_README/). This template can be downloaded in Markdown/txt, doc, LaTeX, and pdf in order to be edited (though we request it be included in the replication package as a pdf). The README file should include the following information (check each item):
   - [ ] Description of the content of the replication package.
   - [ ] A Data Availability Statement that indicates how the data were obtained, including required registrations, application procedures, monetary cost if applicable, etc. and, if applicable, URL to download them.
   - [ ] Precise instructions on how to run the code.
   - [ ] Indications on where to find the output saved/displayed.
   - [ ] Software requirements (including software version + operating system).
   - [ ] All packages and libraries that need to be installed to run the code and either provide them or indicate how to obtain them.
-  - [ ] Expected running time (even if it is a few seconds). When relevant,include the setup that the estimated time refers to.
+  - [ ] Expected running time (even if it is a few seconds). When relevant, include the setup that the estimated time refers to.
   - [ ] A references section with data citations (data should additionally also be cited in the manuscript). More specific guidance on data citations is available at [https://social-science-data-editors.github.io/guidance/addtl-data-citation-guidance.html](https://social-science-data-editors.github.io/guidance/addtl-data-citation-guidance.html).
 
 - [ ] All raw datasets that are necessary to generate all tables and figures from the main text and appendices (including online appendix) as well as all figures quoted in the text. This applies also to simulated/synthetic datasets generated as a result of a data exemption.
 
 - [ ] A copy of all datasets in non-proprietary format (ASCII, csv, etc.), including both original datasets and simulated/synthetic datasets.
 
+- [ ] I confirm that all datasets shared with my replication materials contain no personally identifiable information (PII) on research subjects for which I do not have explicit approval to share, and that all data sharing complies with relevant privacy regulations and consent agreements.
 
 **If an exemption to share some part of the data was granted at the time of first submission, tick one of these two options:**
 
-- [ ] I provide temporary access to the restricted data to the replication team for the sole purpose of the reproducibility checks. I am submitting these data via Editorial Express outside of the main zip file or I shared it directly with the Data Editor.
+- [ ] I provide temporary access to the restricted data to the replication team for the sole purpose of the reproducibility checks. I will submit these data outside of the main 3-replication-package.zip file.
 
 - [ ] I am not allowed to provide the replication team with temporary access to the restricted data. Therefore, I include a synthetic/simulated dataset that mimics the original data and that allows users to run all the code, even if results do not match those in the paper. These data (and a copy of them in non-proprietary format) are included in the main zip file.
 
 
-\newpage
 I understand that the files submitted will be checked for plagiarism and that any code and data submitted will be checked for replicability of the results appearing in the paper, before the paper is finally accepted.
 
 \vspace{2cm}

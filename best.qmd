@@ -104,7 +104,7 @@ Notice how this example includes `tex/main.tex` which will produce the final pro
 
 ## Data
 
-* Always keep your raw data intact (i.e. read-only). Generate separate analysis datasets to perform analysis. After you copied your raw data into the package (`rawdata` folder), set to read only. Look [here for windows tips to set read-only](https://answers.microsoft.com/en-us/windows/forum/all/read-only-folder/1806c9a6-8ad9-47f7-a3a3-fa41d6a662f4), on `*nix` systems it's a
+* Always keep your raw data intact (i.e. read-only). Generate separate analysis datasets to perform analysis. After you copied your raw data into the package (`rawdata` folder), set to read only. On Windows, right-click the folder, choose *Properties* and tick *Read-only*; on `*nix` systems it's a
   ```bash
   chmod 444 rawdata
   ```
